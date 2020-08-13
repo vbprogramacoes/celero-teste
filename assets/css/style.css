@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.Logo_Cookfy {
+  width: 67.5px;
+  height: 27px;
+  object-fit: contain;
+  font-family: PlayfairDisplay;
+  font-size: 20.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.Logo_Cookfy .text-style-1 {
+  color: var(--lipstick);
+}
