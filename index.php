@@ -11,8 +11,8 @@
 	<header class="header">
 		<section class="header-topo width960">
 			<!-- Logo do site -->
-			<div class="header-topo-logo">
-				<img src="./assets/imgs/screen/Logo_Cookfy.svg" class="Cookfy text-style-1">
+			<div class="logo header-topo-logo">
+				Cook<span>fy</span>
 			</div>
 			<!-- Campo de busca -->
 			<div class="header-topo-search">
@@ -136,7 +136,25 @@
 	<!-- Início do rodapé do site -->
 	<footer class="footer">
 		<img src="./assets/imgs/screen/Rodapé.svg" class="Rodap">
-		<div class="footer-complement"></div>
+		<div class="footer-complement width544">
+			<div class="footer-complement-left">
+				<div class="logo">
+					Cook<span>fy</span>
+				</div>
+				<div class="footer-complement-text">
+					© 2020 Cookfy.
+				</div>
+			</div>
+			<div class="footer-complement-right">
+				<div class="footer-complement-social-area">
+					<a class="footer-complement-social-area-item backgroundImage" style="background-image:url(./assets/imgs/screen/Fb.svg)"></a>
+					<a class="footer-complement-social-area-item backgroundImage" style="background-image:url(./assets/imgs/screen/IG.svg)"></a>
+					<a class="footer-complement-social-area-item backgroundImage" style="background-image:url(./assets/imgs/screen/Twitter.svg)"></a>
+					<a class="footer-complement-social-area-item backgroundImage" style="background-image:url(./assets/imgs/screen/Linkedin.svg)"></a>
+					<a class="footer-complement-social-area-item backgroundImage" style="background-image:url(./assets/imgs/screen/Pinterest.svg)"></a>
+				</div>
+			</div>
+		</div>
 	</footer>
 	<!-- Fim do rodapé do site -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

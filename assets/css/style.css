@@ -11,11 +11,13 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 /* Estilização de items padrões */
 .width960 {
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 .width544 {
-    width: 544px;
+    max-width: 544px;
+    width: 100%;
     margin: 0 auto;
 }
 .relative{
@@ -35,6 +37,23 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+/* Esitilização do Logo*/
+.logo {
+    width: 67.5px;
+    height: 27px;
+    font-family: PlayfairDisplay;
+    font-size: 20.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.logo span {
+    color: #e82147;
+}
 /* Fim da estilização de items padrões */
 .header {
     width: 100%;
@@ -48,11 +67,6 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin: 0 auto;
 }
 .header-topo-logo{
-    width: 67.5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-left: 53.5px;
 }
 .header-topo-search{
@@ -147,7 +161,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     object-fit: contain;
     position: absolute;
     left: 57.3px;
-    top: 25px;
+    top: 51px;
 }
 .container-topo-container {
     height: 180px;
@@ -465,10 +479,55 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .footer-complement {
     width: 100%;
+    height: 27px;
+    display: flex;
     position: absolute;
-    background: #ffdbbc;
-    left: 0;
-    bottom: 0;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    align-items: center;
+}
+.footer-complement-left, .footer-complement-right {
+    flex: 1;
+}
+.footer-complement-left {
+    display: flex;
+}
+.footer-complement-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer-complement-text {
+    width: 49px;
+    height: 8px;
+    margin-top: 12.8px;
+    margin-left: 20.6px;
+    font-family: HelveticaNeue;
+    font-size: 7px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.footer-complement-social-area {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-complement-social-area-item {
+    width: 14.5px;
+    height: 14.5px;
+    display: inline-block;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.footer-complement-social-area-item:last-child {
+    margin-right: 0;
 }
 /* CSS contido no zeplin */
 .Cookfy {
