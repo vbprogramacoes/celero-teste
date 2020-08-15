@@ -217,6 +217,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     padding-top: 45.5px;
     padding-bottom: 167.5px;
     background: #fff;
+    position: relative;
 }
 .container-body-container h1{
     width: 272px;
@@ -424,6 +425,31 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 100%;
     height: 100%;
     background-position: center 67%;
+}
+.manchas-corpo4 {
+    width: 83.9px;
+    height: 83.2px;
+    object-fit: contain;
+    top: 504px;
+    left: 45.8px;
+}
+.manchas-corpo6 {
+    width: 85.7px;
+    height: 77.3px;
+    object-fit: contain;
+    top: 706.6px;
+    right: 69.8px;
+}
+.manchas-corpo7 {
+    width: 67.4px;
+    height: 54.5px;
+    object-fit: contain;
+    top: 125.5px;
+    right: 56.5px;
+}
+
+.manchas-corpo:nth-child(3){
+    display: none;
 }
 /* Início do footer */
 .footer {

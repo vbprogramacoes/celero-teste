@@ -126,6 +126,10 @@
 					</div>
 				</div>
 			</section>
+			<!--Criação das manchas do corpo -->
+			<img src="./assets/imgs/screen/Elemtno_4.svg"  class="absolute manchas-corpo4 "/>
+			<img src="./assets/imgs/screen/Elemento_6.svg" class="absolute manchas-corpo6" />
+			<img src="./assets/imgs/screen/Elemento_7.svg" class="absolute manchas-corpo7" />
 		</section>
 	</main>
 	<!-- Fim do corpo do site -->
