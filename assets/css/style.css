@@ -63,16 +63,32 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-color: #ffdbbc;
     display: flex;
     box-sizing: border-box;
-    justify-content: left;
+    justify-content: space-around;
     margin: 0 auto;
 }
-.header-topo-logo{
-    margin-left: 53.5px;
+
+/* Estilização do menu mobile */
+.header-topo-mobile {
+    padding: 24px 0;
+    background-color: #ffdbbc;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin: 0 auto;
 }
+.header-topo-mobile {
+    display: none;
+}
+.header-topo-mobile-lm {
+    display: flex;
+    max-width: 366px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+/* Fim da esitilização do menu mobile */
 .header-topo-search{
     height: 100%;
-    margin-left: 176px;
-    margin-right: 148px;
 }
 .header-topo-search-container {
     width: 366px;
@@ -166,6 +182,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 .container-topo-container {
     height: 180px;
     display: flex;
+    position: relative;
+    z-index: 2;
 }
 .container-topo-container-text {
     width: 266.5px;
@@ -178,7 +196,6 @@ input:focus, textarea:focus, select:focus, button:focus {
     margin-right: 62.5px;
 }
 .container-topo-container-text h2 {
-    width: 100;
     font-family: PlayfairDisplay;
     font-size: 28px;
     font-weight: bold;
@@ -375,8 +392,9 @@ input:focus, textarea:focus, select:focus, button:focus {
     text-align: center;
     color: #000000;
     margin-left: 38px;
+    z-index: 2;
+    position: relative;
 }
-
 .container-body-container-horizontal-slide {
     width: 100%;
     height: 213.5px;
@@ -439,6 +457,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 100%;
     height: 100%;
     background-position: center 67%;
+    position: relative;
+    z-index: 2;
 }
 .manchas-corpo4 {
     width: 83.9px;
@@ -472,13 +492,12 @@ input:focus, textarea:focus, select:focus, button:focus {
     position: relative;
 }
 .Rodap {
-  width: 960px;
+  width: 100%;
   height: 152px;
-  margin: auto;
+  margin: 0 auto;
   object-fit: contain;
 }
 .footer-complement {
-    width: 100%;
     height: 27px;
     display: flex;
     position: absolute;
@@ -551,4 +570,169 @@ input:focus, textarea:focus, select:focus, button:focus {
     width: 11.8px;
     height: 11.8px;
     object-fit: contain;
+}
+
+/* Responsividades */
+@media (max-width: 960px){
+    .Rodap {
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
+@media (max-width: 625px){
+    .width544 {
+        width: 90%;
+    }
+    .header-topo {
+        display: none;
+    }
+    .header-topo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container-topo-container {
+        flex-direction: column;
+        height: auto;
+    }
+    .container-topo {
+        padding-bottom: 24px;
+    }
+    .container-topo-container-text, .container-topo-container-imgs {
+        margin: 0 auto;
+    }
+    .container-topo-container-imgs {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
+    .container-topo-container-imgs-ele1 {
+        position: static;
+    }
+    .container-topo-container-imgs-header {
+        top: 15px;
+    }
+    .entre-no-mundo-gastronomico {
+        margin: 0 auto;
+        width: 100%;
+    }
+    /*Corpo responsividade*/
+    .container-body-container-slide {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-body-container-slide-photo {
+        height: 155px;
+        margin: 0 auto;
+    }
+    .container-body-container-slide-painel {
+        width: 100%;
+        max-width: 319px;
+    }
+    .container-body-container-slide-painel-controls {
+        justify-content: center;
+    }
+    .container-body-container-horizontal-slide {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .horizontal-slide-img-container {
+        width: 100%;
+    }
+    .horizontal-slide-img-container-img {
+        height: 213.5px;
+        width: 100%;
+    }
+    .horizontal-slide-panel {
+        flex-direction: row;
+        width: 100%;
+        margin-right: 0;
+    }
+    .horizontal-slide-panel-button {
+        flex: 0 0 calc(30%);
+        margin: 0 auto;
+    }
+
+}
+@media (max-width: 425px){
+    .header-topo-mobile-lm {
+        width: 90%
+    }
+    .header-topo-search {
+        width: 90%;
+    }
+    .header-topo-search-container {
+        width: 100%;
+    }
+    .container-body-divider{
+        margin-top: 48px;
+        margin-bottom: 24px;
+    }
+    .slide-controls-button {
+        height: 50px;
+        width: 50px;
+    }
+    .horizontal-slide-panel {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 6px;
+    }
+    .horizontal-slide-panel:last-child(3){
+        margin-bottom: 0;
+    }
+    .horizontal-slide-panel-button {
+        flex: auto;
+        width: 100%;
+        height: 50px;
+    }
+    .manchas-corpo4 {
+        left: 5px;
+    }
+    .footer-complement-right {
+        margin-top: 6px;
+    }
+    .container-body-container-slide-photo {
+        width: 100%;
+    }
+    .container-body-container-slide-painel {
+        max-width: 100%;
+    }
+    .slide-controls-button img {
+        width: 14px;
+        height: 14px;
+    }
+    .container-body {
+        padding-bottom: 48px;
+    }
+}
+@media (max-width: 361px){
+    .horizontal-slide-img-container {
+        margin-bottom: 6px;
+    }
+    .container-body-container-slide-photo {
+        width: 100%;
+    }
+    .footer-complement {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media (max-width: 320px){
+    .container-topo-container-text{
+        width: 100%;
+    }
+    .container-topo-container-imgs-ele1{
+        width: 100%;
+    }
+    .container-body-container h1 {
+        width: 100%;
+    }
+    .container-topo-container-imgs-header {
+        width: 100%;
+    }
 }

@@ -33,6 +33,34 @@
 				</div>
 			</div>
 		</section>
+		<section class="header-topo-mobile width960">
+			<!-- Logo do site -->
+			<div class="header-topo-mobile-lm">
+				<div class="logo header-topo-logo">
+					Cook<span>fy</span>
+				</div>
+				<div class="header-topo-menu">
+					<div class="header-topo-menu-name">
+						Marina
+					</div>
+					<div class="header-topo-menu-avatar">
+						<img src="./assets/imgs/screen/Avatar_feminino.svg" class="header-topo-menu-avatar-image">
+					</div>
+				</div>
+			</div>
+			
+			<!-- Campo de busca -->
+			<div class="header-topo-search">
+				<div class="header-topo-search-container">
+					<input class="header-topo-search-container-type" type="text" placeholder="Pesquise alguma receita">
+					<div class="header-topo-search-lupa">
+						<img src="./assets/imgs/screen/Lupa.svg" class="Lupa">
+					</div>
+				</div>
+			</div>
+			<!-- Menu -->
+			
+		</section>
 	</header>
 	<!-- Fim do cabeçalho do site -->
 	<!-- Início do corpo do site -->
