@@ -1,23 +1,469 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
-.Logo_Cookfy {
-  width: 67.5px;
-  height: 27px;
+input:focus, textarea:focus, select:focus, button:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+/* Estilização de items padrões */
+.width960 {
+    width: 960px;
+    margin: 0 auto;
+}
+.width544 {
+    width: 544px;
+    margin: 0 auto;
+}
+.relative{
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.displaynone {
+    display: none;
+}
+.opacity01 {
+    opacity: 0.1;
+}
+.backgroundImage {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+/* Fim da estilização de items padrões */
+.header {
+    width: 100%;
+}
+.header-topo {
+    padding: 24px 0;
+    background-color: #ffdbbc;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: left;
+    margin: 0 auto;
+}
+.header-topo-logo{
+    width: 67.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 53.5px;
+}
+.header-topo-search{
+    height: 100%;
+    margin-left: 176px;
+    margin-right: 148px;
+}
+.header-topo-search-container {
+    width: 366px;
+    height: 30px;
+    border-radius: 16.5px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    box-sizing: border-box;
+}
+.header-topo-search-container-type {
+    border:0;
+    flex:1;
+    height: 100%;
+    opacity: 0.18;
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.header-topo-search-lupa {
+    width: 11px;
+    height: 11px;
+    margin-right: 22.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-topo-menu{
+    width: 65px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-topo-menu-name {
+    width: 25px;
+    height: 10.5px;
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e82147;
+    margin-right: 10px;
+}
+.header-topo-menu-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #e82147;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.header-topo-menu-avatar-image {
+    width: 18.8px;
+    height: 20.3px;
+}
+/*Estilização do corpo do projeto */
+.container{
+    width: 100%;
+}
+.container-topo {
+    background: #ffdbbc;
+    padding-top: 24px;
+    padding-bottom: 84px;
+}
+.container-topo-svg {
+    width: 137.5px;
+    height: 136.8px;
+    object-fit: contain;
+    position: absolute;
+    left: 57.3px;
+    top: 25px;
+}
+.container-topo-container {
+    height: 180px;
+    display: flex;
+}
+.container-topo-container-text {
+    width: 266.5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-right: 62.5px;
+}
+.container-topo-container-text h2 {
+    width: 100;
+    font-family: PlayfairDisplay;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.container-topo-container-text h2 span {
+    width: 100%;
+    color: #e82147;
+}
+.container-topo-container-text p {
+    width: 158px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0d0d0d;
+}
+.container-topo-container-text p span {
+    width: 100%;
+    color: #e82147;
+    display: inline-block;
+}
+.container-topo-container-imgs {
+    width: 225px;
+    height: 100%;
+}
+.container-topo-container-imgs-ele1 {
+    width: 302.1px;
+    height: 220.5px;
+    top: -13.9px;
+    right: -39.5px;
+}
+.container-topo-container-imgs-header {
+    width: 225px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Início do CSS do container body */
+.container-body{
+    padding-top: 45.5px;
+    padding-bottom: 167.5px;
+    background: #fff;
+}
+.container-body-container h1{
+    width: 272px;
+    height: 80px;
+    margin: 0 auto;
+    font-family: PlayfairDisplay;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.container-body-container-slide {
+    width: 100%;
+    height: 155px;
+    margin-top: 69.5px;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+.container-body-container-slide-photo {
+    width: 319px;
+    height: 100%;
+    margin-right: 57.5px;
+}
+.imageslide {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.16);
+}
+.container-body-container-slide-painel {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 9px;
+    box-sizing: border-box;
+}
+.container-body-container-slide-painel-dateadded {
+    width: 66.5px;
+    height: 10.5px;
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e82147;
+}
+.container-body-container-slide-painel-title {
+    width: 155px;
+    height: 45px;
+    margin-top: 12px;
+    font-family: PlayfairDisplay;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.container-body-container-slide-painel-rating
+ {
+    height: 10.5px;
+    margin-top: 12px;
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e82147;
+    display: flex;
+}
+.slide-painel-rating-stars {
+    margin-left: 10.5px;
+}
+.slide-painel-rating-stars-star {
+    width: 8px;
+    height: 7.6px;
+    margin-right: 2px;
+}
+.container-body-container-slide-painel-controls {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+}
+.slide-controls-button{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16) !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-controls-button:nth-child(1){
+    margin-right: 11px;
+}
+.slide-controls-button img {
+    width: 8px;
+    height: 8px;
+}
+
+.container-body-divider {
+    width: 100%;
+    margin-top: 89.5px;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: center;
+}
+.container-body-divider-img {
+    width: 79.5px;
+    height: 8.5px;
+    object-fit: contain;
+}
+
+.entre-no-mundo-gastronomico{
+    width: 478.5px;
+    height: 38.5px;
+    font-family: PlayfairDisplay;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-left: 38px;
+}
+
+.container-body-container-horizontal-slide {
+    width: 100%;
+    height: 213.5px;
+    display: flex;
+    margin-top: 54.5px;
+}
+.horizontal-slide-panel {
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    height: 100%;
+    margin-right: 10px;
+}
+.horizontal-slide-panel-button {
+    display: flex;
+    border: 0;
+    height: 64.5px;
+    border: solid 0.5px #f0f0f0 !important;
+    margin-top: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.horizontal-slide-panel-button:nth-child(1){
+    margin-top: 0;
+}
+.horizontal-slide-activate {
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.16) !important;
+}
+.horizontal-slide-text-activate {
+    color: #e82147 !important;
+}
+.horizontal-slide-panel-button-img img {
+    width: 31px;
+    height: 31px;
+    object-fit: contain;
+}
+
+.horizontal-slide-panel-button-text {
+    width: 61px;
+    height: 21.5px;
+    font-family: PlayfairDisplay;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a19b9b;
+    margin-left: 16.4px;
+}
+
+.horizontal-slide-img-container {
+    width: 319px;
+    height: 100%;
+}
+.horizontal-slide-img-container-img {
+    width: 100%;
+    height: 100%;
+    background-position: center 67%;
+}
+/* Início do footer */
+.footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.Rodap {
+  width: 960px;
+  height: 152px;
+  margin: auto;
   object-fit: contain;
-  font-family: PlayfairDisplay;
-  font-size: 20.5px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.32;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000000;
 }
-.Logo_Cookfy .text-style-1 {
-  color: var(--lipstick);
+.footer-complement {
+    width: 100%;
+    position: absolute;
+    background: #ffdbbc;
+    left: 0;
+    bottom: 0;
+}
+/* CSS contido no zeplin */
+.Cookfy {
+    width: 67.5px;
+    height: 27px;
+    object-fit: contain;
+    font-family: PlayfairDisplay;
+    font-size: 20.5px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.Cookfy .text-style-1 {
+    color: var(--lipstick);
+}
+.Lupa {
+    width: 11.8px;
+    height: 11.8px;
+    object-fit: contain;
 }
