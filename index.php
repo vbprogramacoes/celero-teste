@@ -78,7 +78,7 @@
 					<div class="header-topo-search-container">
 						<input class="header-topo-search-container-type" type="text" placeholder="Pesquise alguma receita">
 						<div class="header-topo-search-lupa">
-							<img src="./assets/imgs/screen/Lupa.svg" class="Lupa">
+							<img src="./assets/imgs/screen/Lupa.svg" class="Lupa" />
 						</div>
 					</div>
 				</div>
@@ -88,7 +88,7 @@
 					<div class="header-topo-menu-name" id="topo-name"></div>
 					<!-- Local do avatar do usuário no menu -->
 					<div class="header-topo-menu-avatar">
-						<img class="header-topo-menu-avatar-image" id="topo-avatar">
+						<img class="header-topo-menu-avatar-image" id="topo-avatar" />
 					</div>
 				</div>
 			</section>
@@ -104,7 +104,7 @@
 							Marina
 						</div>
 						<div class="header-topo-menu-avatar">
-							<img src="./assets/imgs/screen/Avatar_feminino.svg" class="header-topo-menu-avatar-image">
+							<img src="./assets/imgs/screen/Avatar_feminino.svg" class="header-topo-menu-avatar-image" />
 						</div>
 					</div>
 				</div>
@@ -114,7 +114,7 @@
 					<div class="header-topo-search-container">
 						<input class="header-topo-search-container-type" type="text" placeholder="Pesquise alguma receita">
 						<div class="header-topo-search-lupa">
-							<img src="./assets/imgs/screen/Lupa.svg" class="Lupa">
+							<img src="./assets/imgs/screen/Lupa.svg" class="Lupa" />
 						</div>
 					</div>
 				</div>
@@ -126,7 +126,7 @@
 		<main class="container">
 			<section>
 				<div class="container-topo width960 relative">
-					<img src="./assets/imgs/screen/Elemento_2.svg" class="container-topo-svg">
+					<img src="./assets/imgs/screen/Elemento_2.svg" class="container-topo-svg" />
 					<!-- Topo do corpo do site -->
 					<div class="container-topo-container width544">
 						<div class="container-topo-container-text">
@@ -158,7 +158,7 @@
 					<!-- Slide -->
 					<div class="container-body-container-slide">
 						<div class="container-body-container-slide-photo">
-							<img class="imageslide" id="imageslide">
+							<img class="imageslide" id="imageslide" />
 							<div class="container-body-container-slide-photo-view-receita">
 								<img src="./assets/imgs/screen/Seta_direita.svg" /> Ver foto
 							</div>
@@ -231,7 +231,7 @@
 		<!-- Fim do corpo do site -->
 		<!-- Início do rodapé do site -->
 		<footer class="footer">
-			<img src="./assets/imgs/screen/Rodapé.svg" class="Rodap">
+			<img src="./assets/imgs/screen/Rodapé.svg" class="Rodap" />
 			<div class="footer-complement width544">
 				<div class="footer-complement-left">
 					<!-- Logo footer do site -->
@@ -271,13 +271,13 @@
 		<div class="modal-container">
 			<!-- Cabeçalho do modal -->
 			<div class="modal-container-image">
-				<img src="./assets/imgs/page/Header.jpg" id="modal-container-img">
+				<img src="./assets/imgs/page/Header.jpg" id="modal-container-img" />
 			</div>
 			<!-- Corpo do modal -->
 			<div class="modal-container-content">
 				<!-- Botão de fechar o modal -->
 				<div class="modal-container-header">
-					<img src="./assets/imgs/screen/Fechar.svg" id="close-modal">
+					<img src="./assets/imgs/screen/Fechar.svg" id="close-modal" />
 				</div>
 				<div class="modal-container-body">
 					<div class="modal-container-body-header">
