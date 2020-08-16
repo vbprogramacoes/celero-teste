@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="body">
-		<!-- Menu  -->
+		<!-- Menu -->
 		<div class="nav-container">
 			<nav class="sidebar">
 				<div class="sidebar-container">
