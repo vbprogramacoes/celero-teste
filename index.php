@@ -76,7 +76,7 @@
 				<!-- Campo de busca -->
 				<div class="header-topo-search">
 					<div class="header-topo-search-container">
-						<input class="header-topo-search-container-type" type="text" placeholder="Pesquise alguma receita">
+						<input class="header-topo-search-container-type" type="text" placeholder="Pesquise alguma receita" />
 						<div class="header-topo-search-lupa">
 							<img src="./assets/imgs/screen/Lupa.svg" class="Lupa" />
 						</div>
@@ -112,7 +112,7 @@
 				<!-- Campo de busca -->
 				<div class="header-topo-search">
 					<div class="header-topo-search-container">
-						<input class="header-topo-search-container-type" type="text" placeholder="Pesquise alguma receita">
+						<input class="header-topo-search-container-type" type="text" placeholder="Pesquise alguma receita" />
 						<div class="header-topo-search-lupa">
 							<img src="./assets/imgs/screen/Lupa.svg" class="Lupa" />
 						</div>
